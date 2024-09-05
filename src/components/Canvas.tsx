@@ -12,7 +12,7 @@ import { useTheme } from "next-themes";
 import { BitSelection } from "./DataPass";
 
 interface CanvasProps {
-  data: string;
+  data: string;//String type
   selectedBits: BitSelection;
   isGridView: boolean;
   isDisplay: boolean; // New prop for play/pause functionality
