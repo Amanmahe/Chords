@@ -19,7 +19,7 @@ interface CanvasProps {
 }
 
 const Canvas: React.FC<CanvasProps> = ({
-  data,
+  data,//data
   selectedBits,
   isGridView,
   isDisplay,
